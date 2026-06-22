@@ -5,7 +5,9 @@ public class Main {
         System.out.println("***************");
         Saludo saludo = new Saludo();
         Despedida despedida = new Despedida();
-        System.out.println(saludo.generarSaludo("Mundo"));
+        System.out.println(saludo.generarSaludo("Mundo", "en"));
+        System.out.println(saludo.generarSaludo("Mundo", "es"));
+        System.out.println(saludo.generarSaludo("Mundo", "fr"));
         System.out.println(despedida.generarDespedida("Mundo"));
         System.out.println("Versión 1.1.0 lista para producción.");
     }
